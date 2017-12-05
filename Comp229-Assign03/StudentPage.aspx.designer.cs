@@ -11,7 +11,7 @@ namespace Comp229_Assign03
 {
 
 
-    public partial class Contact
+    public partial class StudentPage
     {
     }
 }
