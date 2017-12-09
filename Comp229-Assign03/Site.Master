@@ -38,7 +38,9 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-
+        <div>
+        <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/maplesyrup.jpg" height="250px" Width="1280px"/>
+        </div>
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
