@@ -13,12 +13,12 @@ namespace Comp229_Assign03 {
     public partial class CoursePage {
         
         /// <summary>
-        /// CoursesRepeater control.
+        /// CourseRepeater control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater CoursesRepeater;
+        protected global::System.Web.UI.WebControls.Repeater CourseRepeater;
     }
 }

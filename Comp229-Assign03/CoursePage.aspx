@@ -6,10 +6,10 @@
                 <div class="col-sm-3"><span>Credits</span></div>
                 <div class="col-sm-3"><span>Department</span></div>
             </div>
-            <asp:Repeater ID="CoursesRepeater" runat="server">
+            <asp:Repeater ID="CourseRepeater" runat="server">
                 <ItemTemplate>
                     <div class="row table-row-light">
-                        <a href="CourseManagement.aspx?course=<%# Eval("Id") %>">
+                        <a href="CoursePage.aspx?coursePage=<%# Eval("Id") %>">
                             <div class="col-sm-3"><span><%# Eval("Id") %></span></div>
                             <div class="col-sm-3"><span><%# Eval("Title") %></span></div>
                             <div class="col-sm-3"><span><%# Eval("Credits") %></span></div>
@@ -19,7 +19,7 @@
                 </ItemTemplate>
                 <AlternatingItemTemplate>
                     <div class="row table-row-light-alternate">
-                        <a href="CourseManagement.aspx?course=<%# Eval("Id") %>">
+                        <a href="CoursePage.aspx?coursePage=<%# Eval("Id") %>">
                             <div class="col-sm-3"><span><%# Eval("Id") %></span></div>
                             <div class="col-sm-3"><span><%# Eval("Title") %></span></div>
                             <div class="col-sm-3"><span><%# Eval("Credits") %></span></div>
