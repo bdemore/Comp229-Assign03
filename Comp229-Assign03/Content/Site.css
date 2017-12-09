@@ -9,6 +9,12 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    padding: 10px 10px;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 
@@ -18,17 +24,13 @@ body {
         margin-top: 20px;
     }
 
-    .body-content {
+    /*.body-content {
         padding: 0;
-    }
+    }*/
 }
 
 .navbar-inverse {
-    /*background-color: red*/;
+    /*background-color: red;*/
 }
 
-.teste {
-    border: 1px solid black;
-    margin: 10px 0 0 0;
-    padding: 10px;
-}
+
