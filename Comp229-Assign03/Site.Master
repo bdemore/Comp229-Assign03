@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <title><%: Page.Title %> - Maple Syrup College</title>
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
@@ -48,14 +48,15 @@
                         <span class="icon-bar"></span>
                     </button>
                     <div class="brand-logo">
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+                    <a class="navbar-brand" runat="server" href="~/HomePage">Maple Syrup College</a>
                     </div>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">HomePage</a></li>
-                        <li><a runat="server" href="~/StudentPage">Student Page</a></li>
-                        <li><a runat="server" href="~/CoursePage">Course Page</a></li>
+                        <li><a runat="server" href="~/HomePage">Home</a></li>
+                        <li><a runat="server" href="~/StudentPage">Student</a></li>
+                        <li><a runat="server" href="~/CoursePage">Course</a></li>
+                        <li><a runat="server" href="~/StudentUpdate">Update Student Info</a></li>
                     </ul>
                 </div>
             </div>
@@ -63,11 +64,13 @@
         <div class="container body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
-            </footer>
         </div>
+        <hr />
+        <footer>
+            <div class="container">
+                <p>&copy; <%: DateTime.Now.Year %> - Maple Syrup College - Developed by Bruno Demore</p>
+            </div>
+        </footer>
 
     </form>
 </body>

@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace Comp229_Assign03
 {
-    public partial class CoursePage : System.Web.UI.Page
+    public partial class CoursePage : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Page.Title = "Course";
         }
     }
 }

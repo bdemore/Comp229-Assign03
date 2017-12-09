@@ -11,13 +11,6 @@ body {
     padding-right: 15px;
 }
 
-/* Set widths on the form inputs since otherwise they're 100% wide */
-input,
-select,
-textarea {
-    max-width: 280px;
-}
-
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
@@ -28,4 +21,14 @@ textarea {
     .body-content {
         padding: 0;
     }
+}
+
+.navbar-inverse {
+    /*background-color: red*/;
+}
+
+.teste {
+    border: 1px solid black;
+    margin: 10px 0 0 0;
+    padding: 10px;
 }
